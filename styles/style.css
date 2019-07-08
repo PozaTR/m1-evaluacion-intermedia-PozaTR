@@ -43,7 +43,18 @@ body, h1, ul, li {
     align-items: center;
 }
 .main-title {
-    width: 155px;
     text-align: center;
     text-transform:capitalize;
+    max-width: 450px;
+}
+@media all and (min-width:768px) {
+    .header {
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        padding:20px 30px;
+    }
+    .main-content {
+        font-size: 40px;
+    }
 }
